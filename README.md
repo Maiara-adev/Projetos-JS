@@ -1,2 +1,2 @@
 # Projetos-JS
-Projetos com JavaScript
+Projetos de jogos  com  a linguagem JavaScript.
