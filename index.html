@@ -3,22 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mario</title>
+    <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/style.css">
-    
+   <script defer src="js/script.js"></script>
+
+
+    <title>Pokedex</title>
 </head>
 <body>
     
-<div class="game-board">
-<img src="img/clouds1.png" class="clouds">
-<img src="img/mario.gif" class="mario">
-<img src="img/tubomario.png" class="pipe">
+<main>
+
+
+<img src="img/Charizard 3D.gif" alt="pokemon" class="pokemon" width="100px">
+<h1 class="pokemon-data">
+    <span class="pokemon-number">389</span>-
+    <span class="pokemon-name">Charizard</span>
+</h1>
+
+<form class="form">
+    <input 
+    type="search"
+    class="input_search"
+    placeholder="Name or Number"
+    required
+    />
+</form>
+
+<div class="buttons">
+
+    <button class="button btn-prev"> &lt; Prev </button>
+    <button class="button btn-next">Next &gt; </button>
 
 
 </div>
 
-<script src="js/script.js" defer></script>
+<img src="./img/pokedex.png" alt="pokedex" class="pokedex">
+</main>
+
+
+
 </body>
-
-
 </html>
